@@ -1,0 +1,24 @@
+---
+- name: mesos00
+  ip: 192.168.122.100
+  port: 2204
+  memory: 256
+  group: mesos-master
+
+- name: mesos01
+  ip: 192.168.122.101
+  port: 2202
+  memory: 256
+  group: mesos-slave
+
+- name: mesos02
+  ip: 192.168.122.102
+  port: 2203
+  memory: 256
+  group: mesos-slave
+
+- name: mesos04
+  ip: 192.168.122.103
+  port: 2201
+  memory: 256
+  group: mesos-slave
